@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <!-- Materialize Icon-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Font Awesome Link-->
+        <script src="https://kit.fontawesome.com/c7e4281aec.js" crossorigin="anonymous"></script> 
+        <!-- Font awespme cdnjs -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Compiled and minified CSS -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="style.css">
+        <title>Navbar & Side Navbar</title>
+    </head>
+    <!--Navbar fixed <div class="navbar-fixed"></div> -->
+        <nav class="nav-extended light-green lighten-2">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="https://www.facebook.com/isamatchablespetservices" class="brand-logo center" target="_blank">
+                        <i class="fa-solid fa-paw fa-flip text-white target=_blank"></i>
+                    </a>
+                    <a href="" data-target="mobile-demo" class="sidenav-trigger">
+                        <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                    </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="https://www.facebook.com/isamatchablespetservices/reviews" target="_blank">Reviews</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/isamatchablespetservices/photos_albums" target="_blank">Gallery</a>
+                        </li>
+                        <!--Dropdown Trigger-->
+                        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">About<i class="material-icons right">arrow_drop_down</i></a></li>
+                    </ul>
+                        <!-- Left Menu -->
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">    
+                        <li><a href="https://www.facebook.com/isamatchablespetservices/about" target="_blank">Team</a></li>
+                        <li><a href="https://www.facebook.com/isamatchablespetservices/about" target="_blank">Platforms</a></li>
+                        <li><a href="https://www.facebook.com/isamatchablespetservices/about" target="_blank">Services</a></li>
+                    </ul> 
+                </div>
+                <!-- Dropdown Structure-->
+                <ul id="dropdown1" class="dropdown-content">
+                    <li><a href="#!">About us</a></li>
+                    <li><a href="#!">Canine</a></li>
+                    <li><a href="#!">Feline</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">Subscription</a></li>
+                    <li><a href="#!">Newsletter</a></li>
+                </ul>
+                <!-- Extended navbar-->
+                <div class="nav-content">
+                    <ul class="tabs tabs-transparent">
+                        <li class="tab"><a href="#test1">Contacts</a></li>
+                        <li class="tab"><a class="active" href="#test2">Request a quote</a></li>
+                        <li class="tab"><a href="#test3">Location</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Tabs Structure-->
+        <div class="row">
+            <div class="container"><br><br><br><br>
+            <div class="col s12" id="test1">Contacts
+                <div class="card">
+                    <div class="card-image">
+                    <img src="images/slider1.jpeg" alt="" class="responsive-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col s12" id="test2">Request a quote
+                <div class="card">
+                    <div class="card-image">
+                    <img src="images/slider2.jpg" alt="" class="responsive-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col s12" id="test3">Location
+                <div class="card">
+                    <div class="card-image">
+                    <img src="images/slider3.jpg" alt="" class="responsive-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+                <!-- Call 
+                <div class="container"><br><br><br>
+                <div id="test1" class="col s12">Contacts</div>
+                <div id="test2" class="col s12">Request a quote</div>
+                <div id="test3" class="col s12">Location</div>
+                </div>-->
+
+        <!--Sidenav Structure-->
+        <ul class="sidenav" id="mobile-demo">
+            <li><div class="user-view">
+                <div class="background">
+                    <img src="images/Isa-sidenav.jpg" 
+                        style="object-fit: cover;
+                        width: 300px;
+                        height: 300px;
+                        margin-top: -40px;
+                        background-position: center;" />
+                </div>
+                <br><br><br><br><br>
+                </div></li> 
+                <div class="user-view"><a href="#user"><img class="circle" src="images/img1.jpg"></a></div>
+                <div class="container">
+                    <h5>Isa Capistrano</h5>
+                    <h6>jeremiahisabelle2018@gmail.com</h6></a>
+                </div>
+                <div class="divider"></div>
+                    <li><a href="https://www.facebook.com/isamatchablespetservices/about" target="_blank">About</a>
+                    </li>
+                    <li><a href="https://www.facebook.com/isamatchablespetservices/about" target="_blank">Services</a></l>
+                    <li><a href="https://www.facebook.com/isamatchablespetservices/photos_albums" target="_blank">Gallery</a></li>
+                    <li><a href="https://www.facebook.com/isamatchablespetservices/reviews" target="_blank">Reviews</a></li>
+                    <li><a href="https://www.facebook.com/isamatchablespetservices/about" target="_blank">Team</a></li>
+                    <li><a href="https://www.facebook.com/isamatchablespetservices/about" target="_blank">Platforms</a></l>
+        </ul>
+    
+<body>
+    <div class="container">
+    <h1 class="red-text text-lighten-2">Navbar</h1></div>
+    <div class="divider"> </div>
+    <div class="container"><br><br></div>
+</body>
+
+<div style="height: 3000px;"></div>
+
+    <!-- JQuery CDN-->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+
+    <script>
+        $(document).ready(function() {
+            // Tabs Init
+            $('.tabs').tabs();
+            // Sidenav Init
+            $('.sidenav').sidenav({
+                 edge: 'right',
+                outDuration: 500
+            });
+            $("dropdown-trigger").dropdown();
+            // Dropdown Init
+            $('.dropdown-trigger').dropdown();
+        });
+    </script>
+
+
+</html>
